@@ -612,7 +612,7 @@ const Main: FC = () => {
   return (
     <div className='bg-gray-100'>
       <Header
-        title="aa"
+        title={APP_INFO.title}
         isMobile={isMobile}
         onShowSideBar={showSidebar}
         onCreateNewChat={() => handleConversationIdChange('-1')}
